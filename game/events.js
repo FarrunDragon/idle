@@ -26,7 +26,7 @@ function upgradeButton(store) {
 		draw('.warningText', '');
 
 		store.money -= store.upgradeCost;
-		store.interval -= 50;
+		store.interval -= 200;
 		store.upgradeCost *= 2;
 
 		draw('.upgradeCost', store.upgradeCost);
